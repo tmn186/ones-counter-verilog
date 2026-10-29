@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for Altera-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<QuartusExecution>
+		<AddressBits>64</AddressBits>
+		<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus_fit --read_settings_files=on --write_settings_files=off ones_counter -c ones_counter</CommandLine>
+		<ErrorMessage></ErrorMessage>
+		<Line>3718</Line>
+		<Platform>windows</Platform>
+		<SourceFile>/quartus/ddb/dygr/dygr_place_info.cpp</SourceFile>
+		<StackTrace>
+	0x7ffed0163782: (?get_timing_node@DYGR_ROUTE_TIMING_INFO@@QEBA?AVDYGR_ROUTE_TIMING_NODE@@I@Z + 0xcc12)
+	0x7ffed0134d80: (?populate_port_info_transient_data@DYGR_BLK_PHYSICAL_IMPLEMENTATION@@QEAAXXZ + 0xaf0)
+	0x7ffed0134a0c: (?populate_port_info_transient_data@DYGR_BLK_PHYSICAL_IMPLEMENTATION@@QEAAXXZ + 0x77c)
+	0x7ffed01343bd: (?populate_port_info_transient_data@DYGR_BLK_PHYSICAL_IMPLEMENTATION@@QEAAXXZ + 0x12d)
+	0x7ffed013a043: (?set_transient_data_members@DYGR_PLACE_INFO_BODY@@AEAAXPEAVDYGR_DIE_INFO@@PEAVMEM_UTILS_CHUNK_ALLOC@@@Z + 0x53)
+	0x7ffed0124701: (?load_data_from_pdb@DYGR_PLACE_INFO_BODY@@SAPEAV1@PEAVDYGR_DIE_INFO@@@Z + 0x191)
+	0x7ffed0143f69: (?load_data@DYGR_PLACE_INFO_BODY@@SAPEAV1@PEAVDYGR_DIE_INFO@@@Z + 0x29)
+	0x7ffed0143f12: (?load_data@DYGR_PLACE_INFO@@QEAA_NXZ + 0x52)
+	0x7ffed0122484: (?load_data@DYGR_DIE_INFO_BODY@@QEAA_NW4DEV_DIE_INFO_TYPE_ENUM@@@Z + 0x104)
+	0x7ffee0cc9686: (?start@MPP_ROOT@@QEAA_NPEAVCMP_FACADE@@_N@Z + 0x5a6)
+	0x7ffe79aa73da: (Legacy_fitter_Init + 0x636a)
+	0x7ffe79aa257f: (Legacy_fitter_Init + 0x150f)
+	0x7ffe79aa2168: (Legacy_fitter_Init + 0x10f8)
+	 0x1000f8a6: (TclInvokeStringCommand + 0xc6)
+	 0x100112a8: (TclEvalObjvInternal + 0x328)
+	 0x100121b5: (TclEvalEx + 0x8d5)
+	 0x10012d48: (TclEvalObjEx + 0x2d8)
+	 0x1001abbd: (Tcl_EvalObjCmd + 0xfd)
+	 0x100112a8: (TclEvalObjvInternal + 0x328)
+	 0x10056917: (TclExecuteByteCode + 0xe47)
+	 0x100a2376: (TclObjInterpProcCore + 0x76)
+	 0x100112a8: (TclEvalObjvInternal + 0x328)
+	 0x10056917: (TclExecuteByteCode + 0xe47)
+	 0x100a2376: (TclObjInterpProcCore + 0x76)
+	 0x100112a8: (TclEvalObjvInternal + 0x328)
+	 0x100121b5: (TclEvalEx + 0x8d5)
+	 0x1007c117: (Tcl_FSEvalFileEx + 0x1d7)
+	 0x1007a626: (Tcl_EvalFile + 0x36)
+	0x7ffef62fc1ff: (?qexe_ipc_progress_bar_name@@YAPEBDXZ + 0x12bf)
+	0x7ffef6301dd6: (?qexe_get_command_line@@YAPEBDXZ + 0x1556)
+	0x7ffef63050d5: (?qexe_run_tcl_option@@YA_NPEAVQEXE_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@@@_Dinkum_std@@_N@Z + 0x585)
+	0x7ffeceb7e03d: (?qcu_run_tcl_option@@YA_NPEAVQCU_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@@@_Dinkum_std@@_N@Z + 0xb8d)
+	0x7ffef63056ed: (?qexe_process_cmdline_arguments@@YA_NPEAVQEXE_CMDLINE@@HPEAPEBD@Z + 0x54d)
+	0x7ffef6305851: (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xa1)
+	0x7ff761e515e8:
+	0x7ffef181a7f8: (?msg_exe_fini@@YAXXZ + 0x58)
+	0x7ffef181af3c: (?msg_exe_fini@@YAXXZ + 0x79c)
+	0x7ffef6381f14: (??1MEM_SEGMENT_INTERNAL@@UEAA@XZ + 0x194)
+	0x7ffef181b8bf: (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0x8f)
+	0x7ff761e521f5:
+	0x7fff046008db: (uaw_wcsrchr + 0xeae1b)
+	0x7fff045979df: (uaw_wcsrchr + 0x81f1f)
+	0x7fff0769d1c7: (ZwWaitLowEventPair + 0x1aea37)
+		</StackTrace>
+		<Subsystem>DYGR</Subsystem>
+	</ApplicationError>
+	<Compilation>
+			<CompileID>121380054640.179318634406428</CompileID>
+			<DeviceFamily>Cyclone IV E</DeviceFamily>
+			<IncrementalCompilation>FULL_INCREMENTAL_COMPILATION</IncrementalCompilation>
+			<TopLevelEntityName>ones_counter</TopLevelEntityName>
+		</Compilation>
+		<DateInvoked>2026/10/28 18:19:15</DateInvoked>
+		<ElapsedTime>0</ElapsedTime>
+		<IP>10.211.55.3</IP>
+		<IsInternal>false</IsInternal>
+		<IsQt>false</IsQt>
+		<License>
+			<Edition>Web Edition</Edition>
+			<LicenseHostID/>
+		</License>
+		<Machine>
+			<CPUCountLogical>4</CPUCountLogical>
+			<CPUCountPhysical>1</CPUCountPhysical>
+			<CPUSpeed>3200</CPUSpeed>
+			<Hostname>NGUYNTN34B3</Hostname>
+			<NIC>
+				<Address>001c42d0a670</Address>
+			</NIC>
+			<OS>Windows 7</OS>
+			<OSAddressBits>64</OSAddressBits>
+			<OSVersion>6.2</OSVersion>
+			<Platform>windows</Platform>
+			<ScreenResolution>unknown</ScreenResolution>
+			<TotalPhysicalRAM>6138</TotalPhysicalRAM>
+			<TotalVirtualRAM>4096</TotalVirtualRAM>
+		</Machine>
+		<Name>quartus_fit</Name>
+		<PeakMemoryUsed>0</PeakMemoryUsed>
+		<ProjectRevision>
+			<ProjectName>ones_counter</ProjectName>
+			<Revision>ones_counter</Revision>
+		</ProjectRevision>
+		<QuartusInstallation>
+			<InstallationID>121380054640.179318520406504</InstallationID>
+			<Version>
+				<Build>162</Build>
+				<BuildSite>SJ</BuildSite>
+				<BuildSuffix/>
+				<Edition>Web Edition</Edition>
+				<ServicePack>0</ServicePack>
+				<VersionNumber>13.1</VersionNumber>
+			</Version>
+		</QuartusInstallation>
+		<QuartusUser>
+			<AlteraUserName/>
+			<FAEContactName/>
+			<TalkbackStatus>
+				<DateSet/>
+				<TalkbackOn>true</TalkbackOn>
+			</TalkbackStatus>
+			<UserID>121380054640.179318581310724</UserID>
+			<UserName>nguyentan</UserName>
+		</QuartusUser>
+	</QuartusExecution>
+	<SchemaVersion>schema_2013-01-18</SchemaVersion>
+</ProgramExecution>
+
